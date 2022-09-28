@@ -1,0 +1,36 @@
+body {
+    margin: 0;
+}
+
+.container {
+    display: flex;
+}
+
+.item {
+    flex-grow: 1;
+    flex-basis: 1;
+}
+
+.color_1 {
+    background-color: LightSteelBlue;
+}
+.color_2 {
+    background-color: LightSteelBlue ;
+}
+.color_3 {
+    background-color: PowderBlue ;
+}
+
+
+.hero {
+    height: 100vh;
+    background-image: url("cat.jpg");
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.hero h1 {
+    margin: 0;
+}
